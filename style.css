@@ -1,11 +1,3 @@
-.main{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: white;
-    z-index: 999;
-}
 .main .logo{
     float: left;
     margin-left: 20px;
@@ -14,6 +6,15 @@
     line-height: 45px;
     letter-spacing: 0em;
     text-align: center;
+}
+.main{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    background-color: white;
+    z-index: 999;
 }
 .main ul{ 
     float: right;
@@ -32,17 +33,8 @@
 }
 #Inicio {
     display: flex;
-
-}
-#Inicio img {
-    width: 400px;
-    height: 277px;
-}
-#Inicio .content {
-    flex: 1; 
 }
 #Inicio h1 {
-    background-color: #D69E6B;
     font-size: 32px;
     font-weight: 700;
     line-height: 64px;
@@ -51,12 +43,20 @@
     color: white;
     width: 100%;
     height: 250px;
-    top: 150px;
 }
-
-.content ul li{
-    margin-left: 50px;
-    position: relative;
-    left: -415px;
-    bottom: -55px;
+.content{
+    background-color: #D69E6B;
+    width: 100%;
+    height: 250px;
+    top: 150px;
+    border: 1px solid black;
+}
+.content h1{
+    align-items: center;
+    padding: 50px;
+}
+.content img {
+    width: 35%;
+    height: 250px;
+    float: right;
 }
