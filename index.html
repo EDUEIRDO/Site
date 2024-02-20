@@ -12,9 +12,9 @@
             <a><span style="color:#FFCA67;">Abrigo </span>Amigo</a>
         </div>
         <ul>
-            <li><a href="#Inicio" class="Active_tag">Inicio</a></li>
-            <li><a href="#Explorar" class="Active_tag">Explorar</a></li>
-            <li><a href="#Quem_somos" class="Active_tag">Quem somos?</a></li>
+            <li><a href="#Inicio" onclick="mostrarOcultar('Inicio')" class="Active_tag">Inicio</a></li>
+            <li><a href="#Explorar" onclick="mostrarOcultar('Explorar')" class="Active_tag">Explorar</a></li>
+            <li><a href="#Quem_somos" onclick="mostrarOcultar('Quem_somos')" class="Active_tag">Quem somos?</a></li>
         </ul>
     </nav>
         <div id="Inicio">
@@ -27,8 +27,13 @@
                     <button class="btn" >Doação</button>
                     <button class="btn" >Denúncias</button>  
                 </div>
-
             </div>
+        </div>
+
+        <div id="Explorar" style="display: none;" class="content">
+            <h1>
+                aaaaaaaajhalsdlssjddkasjddlaksksdjlaksjds
+            </h1>
         </div>
         
         
@@ -38,5 +43,18 @@
         <div id="#Quem_somos">
 
         </div>
+        <script>
+            function mostrarOcultar(id) {
+                var elementos = document.querySelectorAll('[id^="Inicio"], [id^="Explorar"], [id^="Quem_somos"]');
+                elementos.forEach(function(elemento) {
+                    elemento.style.display = "none";
+                });
+                
+                var divSelecionada = document.getElementById(id);
+                if (divSelecionada) {
+                    divSelecionada.style.display = "block";
+                }
+            }
+        </script>
 </body>
 </html>
