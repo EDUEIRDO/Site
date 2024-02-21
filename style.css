@@ -1,26 +1,33 @@
+/* start of home page */
+
+/* Nav */
+header {
+    /*box-shadow: 0 4px 17px rgba(0, 0, 0, .1);*/
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: white; 
+    position: absolute;
+    width: 100%;
+    height: 75px;
+}
 .main .logo{
     float: left;
     margin-left: 20px;
-    font-size: 40px;
+    margin-top: 10px;
+    font-size: 60px;
     font-weight: 400px;
     line-height: 45px;
     letter-spacing: 0em;
-    text-align: center;
-    
-    
 }
-.main{
-    position: fixed;
-    top: 0;
-    left: 0;
-    position: absolute;
-    background-color: white;
-    width: 100%;
-    z-index: 999;
-}
+
 .main ul{ 
     float: right;
     margin-right: 20px;
+    margin-top: 25px;
+    font-size: large;
+    letter-spacing: .7px;
 }
 .main ul li {
     display: inline-block;
@@ -33,10 +40,19 @@
     text-decoration: none;
     color: #333;
 }
-#Inicio {
-    display: flex;
+
+/* end nav */
+
+.content{
+    background-color: #D69E6B;
+    width: 100%;
+    height: 250px;
+    margin-top: 75px;
+    display: fixed;
 }
-#Inicio h1 {
+.content h1{
+    align-items: center;
+    padding: 60px;
     font-size: 32px;
     line-height: 64px;
     letter-spacing: 0em;
@@ -45,17 +61,6 @@
     width: 100%;
     height: 20px;
 }
-.content{
-    background-color: #D69E6B;
-    width: 100%;
-    height: 235px;
-    top: 150px;
-    margin-top: 40px;
-}
-.content h1{
-    align-items: center;
-    padding: 20px;
-}
 .content img {
     width: 35%;
     height: 100%;
@@ -63,14 +68,11 @@
 }
 
 .container-button {
-    position: fixed;
-    bottom: 0;
-    left: 0;
+    position:relative;
+    margin-top: 200px;
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding: 10px;
 }
 
 .btn {
@@ -83,4 +85,10 @@
     outline: none;
     cursor: pointer;
 }
+.btn img{
+    width: 90px;
+}
+/* end of home page */
+
+/*start of exp page */
 
