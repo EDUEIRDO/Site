@@ -110,24 +110,19 @@ header {
     text-align: center;
 }
 
-.container-button-2{
-    position:relative;
-    margin-top: 200px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
+.container-button-2 img{
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 15%;
 }
-.btn-2 {
+
+.container-button-2 button{
     width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    background-color: #F2AE2E;
-    margin: 0 10px;
-    border: none;
-    outline: none;
+    height: 30px;
+    border: 1px solid black;
+    border-radius:5px;
     cursor: pointer;
-    /*margin-left: 90px;*/
-}
-.btn-2 img{
-    width: 90px;
+    display: block;
+    margin-top: 5px;
+    margin-left: 170px;
 }
