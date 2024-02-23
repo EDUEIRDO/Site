@@ -9,6 +9,7 @@ header {
     top: 0;
     left: 0;
     z-index: 1;
+
     background-color: white; 
     position: absolute;
     width: 100%;
@@ -98,7 +99,7 @@ header {
     background-color: #D69E6B;
     width: 100%;
     height: 30px;
-    margin-top: -25px;
+    margin-top: 75px;
     position: absolute;
 }
 
@@ -108,123 +109,12 @@ header {
     font-size: 60px;
     text-align: center;
 }
-.card {
-    top: 100px;
-    margin-top: 100px;
-	position: relative;
-	width: 300px;
-	height: 200px;
-	background: #0000;
-	display: flex;
-	overflow: hidden;
-	transition: 0.5s ease-in-out;
-}
-.card:hover {
-	width: 600px;
-}
-.card .imgBx {
-	position: relative;
-	min-width: 300px;
-	height: 100%;
-	background: #fff;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	z-index: 10;
-    
-}
-.card .imgBx  img {
-	max-width: 250px;
-	transition: 0.5s ease-in-out;
-    border: 1px solid transparent;
-    border-radius: 15px;
-}
 
-.card:hover .imgBx  img {
-	transform: rotate(-35deg) translateX(-20px);
-}
-.card .details {
-	position: absolute;
-	left: 0;
-	width: 200px;
-	height: 100%;
-	background: #F2AE2E;
+.btdogs img{
+    margin-top: 250px;
+    max-width: 120px;
+    height: 121px;
+    margin-left: 101px;
+    border-radius: 10px;
 
-	display: flex;
-	justify-content: center;
-	padding: 20px;
-	flex-direction: column;
-	transition: 0.5s ease-in-out;
-}
-.card:hover .details {
-	left: 300px;
-}
-.card .details::before {
-	content: '';
-	position: absolute;
-	left: 0px;
-	width: 0; 
-    height: 0; 
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    border-left: 10px solid #fff;
-	z-index: 1;
-}
-.card .details h3 {
-	color: #fff;
-	text-transform: uppercase;
-	font-weight: 600;
-	font-size: 1.5em;
-	line-height: 1em;
-}
-.card .details h3 span {
-	font-size: 0.65em;
-	font-weight: 300;
-	opacity: 0.85;
-	text-transform: none;
-}
-.card .details h4 {
-	color: #fff;
-	text-transform: uppercase;
-	font-weight: 600;
-	font-size: 0.9em;
-	line-height: 1em;
-	margin-top: 20px;
-	margin-bottom: 10px;
-}
-p {
-	color: #fff;
-	font-size: 0.8em;
-	opacity: 0.85;
-}
-.size {
-	display: flex;
-	gap: 10px;
-}
-
-.group {
-	position: relative;
-	display: flex;
-	justify-content: space-between;
-	margin-top: 10px;
-	align-items: center;
-}
-.card .details h2 {
-	color: #fff;
-	text-transform: uppercase;
-	font-size: 2em;
-}
-.card .details h2 sup {
-	font-weight: 300;
-}
-.card .details h2 small {
-	font-size: 0.75em;
-}
-.card .details a {
-	display: inline-flex;
-	padding: 10px;
-	background: #fff;
-	text-decoration: none;
-	text-transform: uppercase;  
-	color: #4ba9e9;
 }
