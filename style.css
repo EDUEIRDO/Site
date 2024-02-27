@@ -1,4 +1,9 @@
 /* start of home page */
+
+@import url('https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps:wght@400;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kadwa:wght@400;700&display=swap');
+
 *{
     margin: 0;
     top: 0;
@@ -95,13 +100,16 @@ header {
     width: 100%;
     height: 30px;
     margin-top: 75px;
-    position: fixed;
     display: block;
 }
 
 .text h1 {
+    font-family: "Elsie Swash Caps", serif;
+    color: #732E07; 
+    font-weight: 400;
+    font-style: normal;
     padding: 30px; 
-    font-size: 60px;
+    font-size: 80px;
     text-align: center;
 }
 
@@ -118,7 +126,7 @@ header {
 .container {
     max-width: 800px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 220px;
     text-align: center;
 }
 
@@ -142,4 +150,12 @@ header {
 
 .dog p {
     font-size: 14px;
+}
+
+.dog button{
+    background: #F2AE2E;
+    cursor: pointer;
+    font-family: "Kadwa", serif;
+    color: #732E07;
+;
 }
