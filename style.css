@@ -95,21 +95,20 @@ header {
 
 /*start of exp page */
 
-.text {
+.line {
     background-color: #D69E6B;
     width: 100%;
     height: 30px;
     margin-top: 75px;
-    display: block;
     position: fixed;
 }
 
 .text h1 {
     font-family: "Elsie Swash Caps", serif;
-    color: #732E07; 
+    color: #732E07;
     font-weight: 400;
     font-style: normal;
-    padding: 30px;
+    margin-top: 100px;
     font-size: 80px;
     text-align: center;
 }
@@ -118,7 +117,7 @@ header {
 .container {
     max-width: 800px;
     margin: 0 auto;
-    padding: 220px;
+    padding: 80px; 
     text-align: center;
 }
 
@@ -149,4 +148,30 @@ header {
     font-family: "Kadwa", serif;
     color: #732E07;
     border-radius: 5px;
+}
+
+.classeteste h1 {
+    margin: 276px;
+    padding-left: 250px;
+    position: absolute;
+
+}
+.classeteste h3 {
+    top: 327px;
+    left: 440px;
+    position: absolute;
+    font-family: Courier Prime;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+}
+
+.classeteste img {
+    width: 200px;
+    height: 200px;  
+    margin: 270px 92px;
+    left: 92px;
 }
