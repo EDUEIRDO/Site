@@ -7,11 +7,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600;700;800&family=Roboto:wght@100;300;400&display=swap');
 
-:root {
-    --primary-color: #189C15;
-    --primary-dark: #1F252E;
-}
-
 *{
     margin: 0;
     top: 0;
@@ -173,7 +168,6 @@ header {
     top: 327px;
     left: 440px;
     position: absolute;
-    font-family: Courier Prime;
     font-size: 20px;
     font-weight: 400;
     letter-spacing: 0em;
@@ -189,9 +183,10 @@ header {
 }
 
 .links{
-    position: fixed;
-    margin-right: 400px;
-    right: 0;
-    top: 150px;
+    margin-top: -50px;
+}
 
+.links a {
+    margin-left: 100px;
+    text-decoration: none;
 }
