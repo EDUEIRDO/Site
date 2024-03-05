@@ -1,0 +1,58 @@
+* {
+    top: 0;
+    margin: 0;
+}
+.bg-animated {
+    background: #004f75;
+    background: linear-gradient(45deg, #004f75, #018252, #665600, #590600, #59002f);
+    background-size: cover;
+    height:773px;
+  }
+
+.container {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+
+}
+.card-log img{
+    opacity: 70%;
+    position: relative;
+    margin-top: 250px;
+    border-radius: 10px;
+    width: 300px;
+    height: 400px;
+}
+
+.login{
+    position: absolute;
+    margin-top: 250px;
+}
+
+.login input {
+    border: none;
+    border-radius: 5px;
+    margin-left: 43px;
+    margin-top: 10px; 
+    width: 200px;
+    height: 40px;
+}
+
+.login h1 {
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 43px;
+    margin-top: 80px;
+    color: white;
+}
+
+.login button{
+    margin-left: 80px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: rgb(46, 46, 250);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 45px;
+}
